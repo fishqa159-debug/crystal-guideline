@@ -54,7 +54,7 @@ cmake \
     -DCMAKE_TOOLCHAIN_FILE="$TOOLCHAIN" \
     -DANDROID_ABI=arm64-v8a \
     -DANDROID_PLATFORM=android-21 \
-    -DANDROID_STL=none \
+    -DANDROID_STL=c++_static \
     -G Ninja \
     2>&1 | tail -5
 
